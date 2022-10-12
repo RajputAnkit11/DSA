@@ -11,7 +11,7 @@ public:
         }
         int i,j,k;
         
-        for(i=0;i<n-1;i++){
+        for(i=0;i<n-2;i++){
             
             j = i+1;
             k = n-1;
