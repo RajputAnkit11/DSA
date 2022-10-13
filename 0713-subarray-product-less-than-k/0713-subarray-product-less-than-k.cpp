@@ -11,9 +11,9 @@ public:
         while(start<n and end<n){
             if(product < k){
                 end++;
-                if(end >= start){
+                // if(end >= start){
                     count += end - start;
-                }
+                // }
                 
                 if(end<n){
                     product *= nums[end];
