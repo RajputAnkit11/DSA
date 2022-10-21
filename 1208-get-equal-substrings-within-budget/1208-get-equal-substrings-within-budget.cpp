@@ -16,7 +16,9 @@ public:
                 sum -= nums[i];
                 i++;
             }
-            ans = max(ans,j-i);    
+            if(sum <= target){
+                ans = max(ans,j-i);    
+            }
         }
         return ans;
     }
