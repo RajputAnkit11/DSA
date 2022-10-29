@@ -1,4 +1,6 @@
-​class Solution {
+​
+// memoization
+class Solution {
 public:
     int helper(int i,int canBuy, vector<int>&prices, vector<vector<int>>&dp){
         
