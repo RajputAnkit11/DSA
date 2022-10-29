@@ -1,7 +1,8 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
-        
+        // if we consider selling on ith day then we must buy on the 
+        // min price before ith day i.e. [0...i-1]
         int profit = 0;
         int mn = prices[0];
         
