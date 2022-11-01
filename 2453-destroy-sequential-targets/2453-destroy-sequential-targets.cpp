@@ -19,10 +19,10 @@ public:
             map[nums[i]%space]++;
             mxCount = max(mxCount,map[nums[i]%space]);
         }
-        for(auto i: map){
-            cout<<i.first<<" "<<i.second<<"\n";
-        }
-        cout<<mxCount;
+        // for(auto i: map){
+        //     cout<<i.first<<" "<<i.second<<"\n";
+        // }
+        // cout<<mxCount;
         int ans = INT_MAX;
         
         for(auto i: nums){
