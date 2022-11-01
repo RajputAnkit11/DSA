@@ -29,7 +29,6 @@ public:
         }
         
         vector<vector<string>> ans1;
-        
         for(auto i: ans){
             vector<string> v;
             vector<pair<string,int>> temp;
