@@ -7,7 +7,7 @@ public:
             xr ^= i;
         }
         
-        long long int lowestbit = (xr & (xr - 1)) ^ xr;
+        long long int lowestbit = (xr & (~(xr - 1)));
         
         vector<int> ans(2,0);
         for(auto &i : nums){
