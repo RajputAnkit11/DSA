@@ -4,6 +4,7 @@ public:
         
         if(i == n-1){
             ans.push_back(temp);
+            return;
         }
         if(i == 0){
             temp.push_back(0);
