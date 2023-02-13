@@ -4,12 +4,12 @@ public:
         unordered_map<int, int> map;
         int res = 0;
         for (int n : nums) {
-            if (map[k-n]>0) {
+            if (map.count(k-n)) {
                 res++;
                 map[k - n]--;
-                // if(map[k-n] == 0) {
-                //     map.erase(k-n);
-                // }
+                if(map[k-n] == 0) {
+                    map.erase(k-n);
+                }
             } else {
                 map[n]++;
             }
